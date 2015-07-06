@@ -34,7 +34,7 @@ set visualbell t_vb=
 set noerrorbells
 
 "起動時デスクトップに移動
-:cd C:\Users\KLUTCHE\Desktop
+:cd ~\Desktop
 
 "ウインドウサイズの記憶
 let g:save_window_file = expand('~/VimFiles/.vimwinpos')

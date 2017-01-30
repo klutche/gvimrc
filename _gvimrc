@@ -1,5 +1,13 @@
+"エンコード設定
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+set fileformats=unix,dos,mac
+source $VIMRUNTIME/delmenu.vim
+set langmenu=ja_jp.utf-8
+source $VIMRUNTIME/menu.vim
+
 "フォント設定
-set guifont=Ricty:h11			"Windows用フォント設定
+set guifont=Ricty:h12			"Windows用フォント設定
 
 "表示設定
 syntax on				"コードの色分け
@@ -34,7 +42,7 @@ set visualbell t_vb=
 set noerrorbells
 
 "起動時デスクトップに移動
-:cd ~\Desktop
+:cd E:\Desktop
 
 "ウインドウサイズの記憶
 let g:save_window_file = expand('~/VimFiles/.vimwinpos')

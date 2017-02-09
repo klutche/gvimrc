@@ -6,43 +6,46 @@ source $VIMRUNTIME/delmenu.vim
 set langmenu=ja_jp.utf-8
 source $VIMRUNTIME/menu.vim
 
+"暗号化設定
+set cm=blowfish2
+
 "フォント設定
-set guifont=Ricty:h12			"Windows用フォント設定
+set guifont=Ricty:h12 "Windows用フォント設定
 
 "表示設定
-syntax on				"コードの色分け
-colorscheme desert			"カラー設定
-set title				"編集中のファイル名を表示
-set number				"行番号を表示する
-set cursorline				"カーソル行の背景色を変える
-set showmatch				"括弧入力時の対応する括弧を表示
-set smartindent				"オートインデント
-set autoindent				"新しい行のインデントを現在行と同じにする
+syntax on "コードの色分け
+colorscheme desert "カラー設定
+set title "編集中のファイル名を表示
+set number "行番号を表示する
+set cursorline "カーソル行の背景色を変える
+set showmatch "括弧入力時の対応する括弧を表示
+set smartindent "オートインデント
+set autoindent "新しい行のインデントを現在行と同じにする
 
 "検索設定
-set hlsearch				"検索文字列をハイライトする
-set ignorecase				"大文字/小文字の区別なく検索する
-set smartcase				"検索文字列に大文字が含まれている場合は区別して検索する
-set wrapscan				"検索時に最後まで行ったら最初に戻る
+set hlsearch "検索文字列をハイライトする
+set ignorecase "大文字/小文字の区別なく検索する
+set smartcase "検索文字列に大文字が含まれている場合は区別して検索する
+set wrapscan "検索時に最後まで行ったら最初に戻る
 
 "ファイル処理関連の設定
-set confirm				"保存されていないファイルがあるときは終了前に保存確認
-set hidden				"保存されていないファイルがあるときでも別のファイルを開くことが出来る
-set autoread				"外部でファイルに変更がされた場合は読みなおす
-set viminfo+=n~/VimFiles/_viminfo	"viminfoファイルの保存先
-set noswapfile				"スワップファイルを作成しない
-set nobackup				"バックアップファイルを作成しない
-set noundofile				"undoファイルを作成しない
+set confirm "保存されていないファイルがあるときは終了前に保存確認
+set hidden "保存されていないファイルがあるときでも別のファイルを開くことが出来る
+set autoread "外部でファイルに変更がされた場合は読みなおす
+set viminfo+=n~/VimFiles/_viminfo "viminfoファイルの保存先
+set noswapfile "スワップファイルを作成しない
+set nobackup "バックアップファイルを作成しない
+set noundofile "undoファイルを作成しない
 
 "動作環境との統合関連の設定
-set clipboard=unnamed,unnamedplus	"OSのクリップボードを使う
+set clipboard=unnamed,unnamedplus "OSのクリップボードを使う
 
 "ビープ音
 set visualbell t_vb=
 set noerrorbells
 
 "起動時デスクトップに移動
-:cd E:\Desktop
+cd E:\Desktop
 
 "ウインドウサイズの記憶
 let g:save_window_file = expand('~/VimFiles/.vimwinpos')

@@ -1,4 +1,4 @@
-"ƒGƒ“ƒR[ƒhİ’è
+"ã‚¨ãƒ³ã‚³ãƒ¼ãƒ‰è¨­å®š
 set encoding=utf-8
 set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set fileformats=unix,dos,mac
@@ -6,49 +6,53 @@ source $VIMRUNTIME/delmenu.vim
 set langmenu=ja_jp.utf-8
 source $VIMRUNTIME/menu.vim
 
-"ˆÃ†‰»İ’è
+"æš—å·åŒ–è¨­å®š
 set cm=blowfish2
 
-"ƒtƒHƒ“ƒgİ’è
-set guifont=Ricty:h12 "Windows—pƒtƒHƒ“ƒgİ’è
+"ãƒ•ã‚©ãƒ³ãƒˆè¨­å®š
+set guifont=Ricty:h12 "Windowsç”¨ãƒ•ã‚©ãƒ³ãƒˆè¨­å®š
 
-"•\¦İ’è
-syntax on "ƒR[ƒh‚ÌF•ª‚¯
-colorscheme desert "ƒJƒ‰[İ’è
-set title "•ÒW’†‚Ìƒtƒ@ƒCƒ‹–¼‚ğ•\¦
-set number "s”Ô†‚ğ•\¦‚·‚é
-set cursorline "ƒJ[ƒ\ƒ‹s‚Ì”wŒiF‚ğ•Ï‚¦‚é
-set showmatch "Š‡ŒÊ“ü—Í‚Ì‘Î‰‚·‚éŠ‡ŒÊ‚ğ•\¦
-set smartindent "ƒI[ƒgƒCƒ“ƒfƒ“ƒg
-set autoindent "V‚µ‚¢s‚ÌƒCƒ“ƒfƒ“ƒg‚ğŒ»İs‚Æ“¯‚¶‚É‚·‚é
+"è¡¨ç¤ºè¨­å®š
+syntax on "ã‚³ãƒ¼ãƒ‰ã®è‰²åˆ†ã‘
+colorscheme desert "ã‚«ãƒ©ãƒ¼è¨­å®š
+set title "ç·¨é›†ä¸­ã®ãƒ•ã‚¡ã‚¤ãƒ«åã‚’è¡¨ç¤º
+set number "è¡Œç•ªå·ã‚’è¡¨ç¤ºã™ã‚‹
+set cursorline "ã‚«ãƒ¼ã‚½ãƒ«è¡Œã®èƒŒæ™¯è‰²ã‚’å¤‰ãˆã‚‹
+set showmatch "æ‹¬å¼§å…¥åŠ›æ™‚ã®å¯¾å¿œã™ã‚‹æ‹¬å¼§ã‚’è¡¨ç¤º
+set smartindent "ã‚ªãƒ¼ãƒˆã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆ
+set autoindent "æ–°ã—ã„è¡Œã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã‚’ç¾åœ¨è¡Œã¨åŒã˜ã«ã™ã‚‹
 
-"ŒŸõİ’è
-set hlsearch "ŒŸõ•¶š—ñ‚ğƒnƒCƒ‰ƒCƒg‚·‚é
-set ignorecase "‘å•¶š/¬•¶š‚Ì‹æ•Ê‚È‚­ŒŸõ‚·‚é
-set smartcase "ŒŸõ•¶š—ñ‚É‘å•¶š‚ªŠÜ‚Ü‚ê‚Ä‚¢‚éê‡‚Í‹æ•Ê‚µ‚ÄŒŸõ‚·‚é
-set wrapscan "ŒŸõ‚ÉÅŒã‚Ü‚Ås‚Á‚½‚çÅ‰‚É–ß‚é
+"æ¤œç´¢è¨­å®š
+set hlsearch "æ¤œç´¢æ–‡å­—åˆ—ã‚’ãƒã‚¤ãƒ©ã‚¤ãƒˆã™ã‚‹
+set ignorecase "å¤§æ–‡å­—/å°æ–‡å­—ã®åŒºåˆ¥ãªãæ¤œç´¢ã™ã‚‹
+set smartcase "æ¤œç´¢æ–‡å­—åˆ—ã«å¤§æ–‡å­—ãŒå«ã¾ã‚Œã¦ã„ã‚‹å ´åˆã¯åŒºåˆ¥ã—ã¦æ¤œç´¢ã™ã‚‹
+set wrapscan "æ¤œç´¢æ™‚ã«æœ€å¾Œã¾ã§è¡Œã£ãŸã‚‰æœ€åˆã«æˆ»ã‚‹
 
-"ƒtƒ@ƒCƒ‹ˆ—ŠÖ˜A‚Ìİ’è
-set confirm "•Û‘¶‚³‚ê‚Ä‚¢‚È‚¢ƒtƒ@ƒCƒ‹‚ª‚ ‚é‚Æ‚«‚ÍI—¹‘O‚É•Û‘¶Šm”F
-set hidden "•Û‘¶‚³‚ê‚Ä‚¢‚È‚¢ƒtƒ@ƒCƒ‹‚ª‚ ‚é‚Æ‚«‚Å‚à•Ê‚Ìƒtƒ@ƒCƒ‹‚ğŠJ‚­‚±‚Æ‚ªo—ˆ‚é
-set autoread "ŠO•”‚Åƒtƒ@ƒCƒ‹‚É•ÏX‚ª‚³‚ê‚½ê‡‚Í“Ç‚İ‚È‚¨‚·
-set viminfo+=n~/VimFiles/_viminfo "viminfoƒtƒ@ƒCƒ‹‚Ì•Û‘¶æ
-set noswapfile "ƒXƒƒbƒvƒtƒ@ƒCƒ‹‚ğì¬‚µ‚È‚¢
-set nobackup "ƒoƒbƒNƒAƒbƒvƒtƒ@ƒCƒ‹‚ğì¬‚µ‚È‚¢
-set noundofile "undoƒtƒ@ƒCƒ‹‚ğì¬‚µ‚È‚¢
+"ãƒ•ã‚¡ã‚¤ãƒ«å‡¦ç†é–¢é€£ã®è¨­å®š
+set confirm "ä¿å­˜ã•ã‚Œã¦ã„ãªã„ãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚ã‚‹ã¨ãã¯çµ‚äº†å‰ã«ä¿å­˜ç¢ºèª
+set hidden "ä¿å­˜ã•ã‚Œã¦ã„ãªã„ãƒ•ã‚¡ã‚¤ãƒ«ãŒã‚ã‚‹ã¨ãã§ã‚‚åˆ¥ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ãã“ã¨ãŒå‡ºæ¥ã‚‹
+set autoread "å¤–éƒ¨ã§ãƒ•ã‚¡ã‚¤ãƒ«ã«å¤‰æ›´ãŒã•ã‚ŒãŸå ´åˆã¯èª­ã¿ãªãŠã™
+set viminfo+=n~/VimFiles/_viminfo "viminfoãƒ•ã‚¡ã‚¤ãƒ«ã®ä¿å­˜å…ˆ
+set noswapfile "ã‚¹ãƒ¯ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã—ãªã„
+set nobackup "ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã—ãªã„
+set noundofile "undoãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œæˆã—ãªã„
 
-"“®ìŠÂ‹«‚Æ‚Ì“‡ŠÖ˜A‚Ìİ’è
-set clipboard=unnamed,unnamedplus "OS‚ÌƒNƒŠƒbƒvƒ{[ƒh‚ğg‚¤
+"å‹•ä½œç’°å¢ƒã¨ã®çµ±åˆé–¢é€£ã®è¨­å®š
+set clipboard=unnamed,unnamedplus "OSã®ã‚¯ãƒªãƒƒãƒ—ãƒœãƒ¼ãƒ‰ã‚’ä½¿ã†
 
-"ƒr[ƒv‰¹
+"ãƒ“ãƒ¼ãƒ—éŸ³
 set visualbell t_vb=
 set noerrorbells
 
-"‹N“®ƒfƒXƒNƒgƒbƒv‚ÉˆÚ“®
-cd E:\Desktop
+"ã‚¿ãƒ–å¹…
+set tabstop=4
+set shiftwidth=4
 
-"ƒEƒCƒ“ƒhƒEƒTƒCƒY‚Ì‹L‰¯
-let g:save_window_file = expand('~/VimFiles/.vimwinpos')
+"èµ·å‹•æ™‚ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ã«ç§»å‹•
+cd C:\Users\KLUTCHE\Desktop
+
+"ã‚¦ã‚¤ãƒ³ãƒ‰ã‚¦ã‚µã‚¤ã‚ºã®è¨˜æ†¶
+let g:save_window_file = expand('~/.vimwinpos')
 augroup SaveWindow
 	autocmd!
 	autocmd VimLeavePre * call s:save_window()
